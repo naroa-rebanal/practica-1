@@ -1,6 +1,6 @@
 ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
-`git reset --hard` HEAD~1 
+git reset --hard HEAD~1 
 
 He utilizado este comando (que es como utilizar git reset HEAD~1 y git restore*) que vuelve al comit anterior y posteriormente restaura los archivos de mi wokirng copy con el los del commit anterior por lo tanto revierte los cambios hechos.
 
@@ -36,7 +36,7 @@ git reset HEAD~1 para volver al padre de master.
 
 **¿Qué comando o comandos utilizaste en el paso 28?**
 
-Para descartar cambios usamos git restore <file>
+Para descartar cambios usamos git restore con el archivo del commit al que regresamos<file>
 
 **¿Qué comando o comandos utilizaste en el paso 29?**
 
